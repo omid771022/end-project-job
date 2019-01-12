@@ -337,3 +337,55 @@ color: #34ccff;
     justify-content:flex-end;
     display: flex;
 }
+.card-body_feature1{
+    width: 100%;
+    justify-content:flex-end;
+  display: flex;
+
+}
+.card_text_h{
+    text-align: right;
+    direction: rtl;
+    margin-top: 20px;
+
+}
+.card_text_p{
+    text-align: right;
+    direction: rtl;
+
+    margin-top: 20px;
+}
+.fa-shadow_border{
+border: 8px solid #d4f1fa;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    padding:35px;
+    background-color: #b5edff;
+    border-radius: 60px;
+}
+#air{
+    background: url("../img/air.jpg") center center  fixed;
+    background-size: cover;
+    /*34ccff*/
+}
+.card-body_air{
+    background-color: #34ccff;
+    padding: 20px;
+}
+.card-body_air>h5{
+    padding: 20px 20px;
+    color: white;
+    direction: rtl;
+    text-align: right;
+
+}
+
+
+.card-body_air>p{
+    padding: 20px 20px;
+    color: white;
+    direction: rtl;
+    text-align: right;
+
+}

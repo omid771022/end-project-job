@@ -365,9 +365,14 @@ border: 8px solid #d4f1fa;
     border-radius: 60px;
 }
 #air{
-    background: url("../img/air.jpg") center center  fixed;
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(34, 60, 91, 0.8),rgba(34, 60, 91, 0.8)), url("../img/air.jpg")  center center  fixed;
+
     background-size: cover;
-    /*34ccff*/
+
+
 }
 .card-body_air{
     background-color: #34ccff;
@@ -388,4 +393,71 @@ border: 8px solid #d4f1fa;
     direction: rtl;
     text-align: right;
 
+}
+.card_air{
+    z-index: 1;
+
+
+}
+span{
+    /*text-align: center!important;*/
+    color: white;
+    margin-left: 80px;
+font-size: 25px;
+    padding-top: 25px;
+}
+.line_number_sub{
+    width: 70px;
+    background-color: #34ccff;
+    height: 5px;
+    float: left;
+
+    margin-bottom: 10px;
+}
+.line_number{
+    margin-top: 0;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.text_line{
+    text-align:right;
+    direction: rtl;
+    font-size: 12px;
+margin-top: 10px;
+    color: white;
+
+
+}
+#number{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.title_feature1{
+    font-size: 12px;
+    text-align: center;
+    direction: rtl;
+    color: #34ccff;
+    margin-top: 20px;
+}
+.sub_feature1{
+    text-align: center;
+    direction: rtl;
+    margin-top: 5px;
+
+}
+.line-sub2{
+    width: 90px;
+    background-color: #34ccff;
+    height: 5px;
+    float: left;
+
+    margin-bottom: 20px;
+}
+.line1{
+    margin-top: 25px;
+    display: flex;
+    justify-content:center;
+    width: 100%;
 }

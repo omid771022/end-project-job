@@ -47,5 +47,6 @@ $(document).ready(function () {
         else{
             $(".black").css("background" , "transparent")
         }
-    })
+    });
+
 });

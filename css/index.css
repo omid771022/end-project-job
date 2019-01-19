@@ -822,3 +822,6 @@ direction: rtl;
         padding-left: 0;
     }
 }
+.card-img-top{
+    padding-top: 10px;
+}

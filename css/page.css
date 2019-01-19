@@ -1,0 +1,239 @@
+ul>li>i{
+        font-size: 60px;
+    color: #34ccff;
+
+
+}
+#row{
+    padding: 20px 0
+}
+
+@font-face {
+    font-family:"Iranian Sans";
+    src: url(../font/iransans/iransans/IRANSansWeb.ttf);
+
+}
+body{
+    font-family:"Iranian Sans";
+}
+
+ul>li{
+    float: left;
+    list-style-type: none;
+font-size: 20px;
+    text-align: right;
+    margin-left: 10px;
+}
+.image{
+    margin-top: 20px;
+
+}
+.btn-light{
+    border-radius: 0px;
+    color: #34ccff;
+}
+nav{
+    background-color:#34ccff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+.carousel-caption{
+height: 50%;
+    align-items: center;
+}
+.title_text_img{
+    color: #34ccff;
+}
+.line1{
+    margin-top: 25px;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.line-sub{
+    width: 50px;
+    background-color: #34ccff;
+    height: 10px;
+    float: left;
+
+    margin-bottom: 20px;
+}
+.title_text{
+    direction: rtl;
+text-align: center;
+    margin-top: 30px;
+}
+.title_text>p{
+    color: #34ccff;
+}
+.card1{
+    background: rgba(52,204,255, 0.5);
+}
+.card_wave{
+    margin: 10px 0;
+
+    border: none;
+}
+
+.hero-wave {
+    background: rgba(52,204,255, 0.5);
+    bottom: 20px;
+
+}
+.hero-wave>h4{
+    color: white;
+    text-align: center;
+    direction: rtl;
+    position:absolute;
+    display: flex;
+    width: 100%;
+    margin: auto 0;
+    padding-top:10px ;
+    justify-content: center;
+}
+
+.hero-wave>p{
+    color: white;
+    text-align: center;
+    direction: rtl;
+    position:absolute;
+    display: flex;
+    width: 100%;
+justify-content: center;
+    padding-top: 40px;
+
+}
+
+
+.card_body{
+    background: #f6f6f6;
+}
+.card_body>h2{
+    margin-top: 40px;
+    color: #34ccff;
+    text-align: center;
+    direction: rtl;
+}
+.card_body{
+
+
+    padding:0;
+
+}
+.card_body>p{
+    text-align: center;
+    direction: rtl;
+    margin:20px ;
+    font-weight: bold;
+}
+.card_body>div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+.card_body>div>button{
+    margin:20px;
+}
+.card_wave{
+
+    border: none;
+}
+.btn_color{
+    background-color:#34ccff;
+    border-radius:0;
+    color:white ;
+}
+.card-img-top{
+    padding-top: 10px;
+}
+#email{
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+.text-email{
+    margin-top: 10px;
+    text-align: right;
+    direction:rtl;
+    font-size: 14px;
+
+}
+.h4-email{
+    text-align: right;
+    direction:rtl;
+    margin-top:30px;
+}
+#conter{
+    margin-top: 70px;
+}
+#conter{
+    margin-top: 70px;
+}
+
+#footer{
+    background:#142440;
+}
+.text_footer{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    direction: rtl;
+}
+.img_footer{
+    margin-top: 30px;
+}
+.text-p-footer{
+    margin-top: 20px;
+    text-align:left;
+    color: white;
+    direction: rtl;
+    padding:0 0 20px  0 ;
+
+}
+/*ul>li>i{*/
+    /*border-radius: 50px;*/
+
+    /*padding: 10px;*/
+    /*background-color: white;*/
+
+/*}*/
+.icon-1>li{
+    direction: rtl;
+    float: left;
+    margin: 0 5px;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: white;
+    list-style-type: none;
+}
+/*ul>li>p{*/
+    /*margin: 15px 0;*/
+    /*text-align:center;*/
+    /*direction: rtl;*/
+    /*color: white;*/
+/*}*/
+/*ul>li{*/
+    /*list-style-type: none;*/
+
+/*}*/
+
+.text2{
+    text-align: right!important;
+    font-size: 12px;
+    color: #6c757d;
+    margin-left: -6px;
+
+    direction: rtl;
+}
+.fa-clock{
+    color:rgb(66, 139, 202);
+    font-size: 15px;
+}
+.img-f{
+    margin: 10px 0;
+}
+.navbar-toggler{
+    color: white;
+}

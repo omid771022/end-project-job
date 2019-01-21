@@ -1,0 +1,195 @@
+ul>li>i{
+    font-size: 60px;
+    color: #34ccff;
+
+
+}
+#row{
+    padding: 20px 0
+}
+
+@font-face {
+    font-family:"Iranian Sans";
+    src: url(../font/iransans/iransans/IRANSansWeb.ttf);
+
+}
+body{
+    font-family:"Iranian Sans";
+}
+
+ul>li{
+    float: left;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 10px;
+}
+.image{
+    margin-top: 20px;
+
+}
+.btn-light{
+    border-radius: 0px;
+    color: #34ccff;
+}
+nav{
+    background-color:#34ccff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+#email{
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+.text-email{
+    margin-top: 10px;
+    text-align: right;
+    direction:rtl;
+    font-size: 14px;
+
+}
+.h4-email{
+    text-align: right;
+    direction:rtl;
+    margin-top:30px;
+}
+#conter{
+    margin-top: 70px;
+}
+#conter{
+    margin-top: 70px;
+}
+
+#footer{
+    background:#142440;
+}
+.text_footer{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    direction: rtl;
+}
+.img_footer{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.text-p-footer{
+    margin-top: 20px;
+    text-align:left;
+    color: white;
+    direction: rtl;
+    padding:0 0 20px  0 ;
+
+}
+.ul-m>li>i{
+    border-radius: 50px;
+
+    padding: 10px;
+    background-color: white;
+
+}
+.icon-1>li>i{
+    direction: rtl;
+    float: left;
+    margin: 0 1px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    list-style-type: none;
+    font-size: 20px;
+}
+.text_footer1{
+    text-align: center;
+    direction: rtl;
+    color: white;
+}
+
+.text2{
+    text-align: right!important;
+    font-size: 12px;
+    color: #6c757d;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    direction: rtl;
+}
+.fa-clock{
+    color:rgb(66, 139, 202);
+    font-size: 15px;
+}
+.img-f{
+    margin: 10px 0;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-align: right;
+    padding: 0 10px;
+}
+
+
+.text-form{
+    margin-top: 25px;
+    font-size: 20px;
+    text-align:left;
+    direction: rtl;
+
+}
+.text-comment{
+    margin-top: 25px;
+padding-right:10px ;
+    text-align:left;
+    direction: rtl;
+}
+
+.form-control{
+ background-color:#f5f5f5;
+    margin: 20px 0;
+border-radius: 0;
+}
+.btn_color{
+    background-color:#34ccff;
+    border-radius:0;
+    color:white ;
+}
+@media only screen and (min-width: 0px) and (max-width: 414px) {
+
+    .image1 {
+        height: 300px;
+    }
+
+    .image {
+        margin-left: 50px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 834px) {
+    .image1 {
+        height: 300px;
+    }
+
+    .image {
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .img_footer {
+        margin-left: -20px !important;
+    }
+
+    .icon-1 > li > i {
+        direction: rtl;
+        float: left;
+        margin: 0 1px;
+        border-radius: 50px;
+        padding: 5px;
+        background-color: white;
+        list-style-type: none;
+        font-size: 15px;
+    }
+}

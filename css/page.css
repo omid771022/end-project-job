@@ -183,6 +183,7 @@ justify-content: center;
 }
 .img_footer{
     margin-top: 30px;
+    margin-left: 30px;
 }
 .text-p-footer{
     margin-top: 20px;
@@ -192,38 +193,36 @@ justify-content: center;
     padding:0 0 20px  0 ;
 
 }
-/*ul>li>i{*/
-    /*border-radius: 50px;*/
+.ul-m>li>i{
+    border-radius: 50px;
 
-    /*padding: 10px;*/
-    /*background-color: white;*/
+    padding: 10px;
+    background-color: white;
 
-/*}*/
-.icon-1>li{
+}
+.icon-1>li>i{
     direction: rtl;
     float: left;
-    margin: 0 5px;
+    margin: 0 1px;
     border-radius: 50px;
-    padding: 8px;
+    padding: 10px;
     background-color: white;
     list-style-type: none;
+    font-size: 20px;
 }
-/*ul>li>p{*/
-    /*margin: 15px 0;*/
-    /*text-align:center;*/
-    /*direction: rtl;*/
-    /*color: white;*/
-/*}*/
-/*ul>li{*/
-    /*list-style-type: none;*/
-
-/*}*/
+.text_footer1{
+    text-align: center;
+    direction: rtl;
+    color: white;
+}
 
 .text2{
     text-align: right!important;
     font-size: 12px;
     color: #6c757d;
-    margin-left: -6px;
+display: flex;
+    width: 100%;
+    justify-content: center;
 
     direction: rtl;
 }
@@ -237,3 +236,57 @@ justify-content: center;
 .navbar-toggler{
     color: white;
 }
+
+
+@media only screen and (min-width: 0px) and (max-width: 414px) {
+
+    .image1 {
+        height: 300px;
+    }
+
+    .image {
+        margin-left: 50px;
+        width: 200px;
+    }
+
+
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: white;
+        border-bottom: 1px solid #fff;
+        text-align: right;
+        padding: 0 10px;
+    }
+}
+
+    @media only screen and (min-width: 767px) and (max-width: 834px) {
+        .image1 {
+            height: 300px;
+        }
+
+        .image {
+            margin-left: 50px;
+            width: 200px;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: white;
+            border-bottom: 1px solid #fff;
+            text-align: right;
+            padding: 0 10px;
+        }
+        .img_footer {
+            margin-left: -20px !important;
+        }
+
+        .icon-1 > li > i {
+            direction: rtl;
+            float: left;
+            margin: 0 1px;
+            border-radius: 50px;
+            padding: 5px;
+            background-color: white;
+            list-style-type: none;
+            font-size: 15px;
+        }
+    }
